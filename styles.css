@@ -1,0 +1,242 @@
+* {
+    box-sizing: border-box;
+}
+
+/* nav design start here  */
+
+.nav-container {
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.logo-container {
+    display: flex;
+    width: 50%;
+}
+
+.logo-container img {
+    width: 86px;
+    height: 40px;
+    object-fit: cover;
+    align-self: center;
+    margin-right: 20px;
+
+}
+
+.Para-color {
+    color: rgb(239, 75, 108);
+}
+
+.logo-container p {
+    font-size: 35px;
+    width: 200px;
+    padding-right: 40px;
+}
+
+.nav-items-container {
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.nav-items-container a {
+    text-decoration: none;
+}
+
+.nav-items-container-logo {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    justify-content: space-evenly;
+    width: 262px;
+    height: 56px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+
+
+}
+
+.nav-items-container-logo img {
+    height: 40%;
+}
+
+/* nav design end here  */
+
+/* banner design start here  */
+.banner-container {
+    margin: 50px auto 0;
+    max-width: 1400px;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-text {
+    width: 50%;
+    text-align: center;
+}
+
+/* .play{
+    padding-top: auto;
+} */
+
+/* .para-container{
+    align-items: s;
+} */
+
+.banner-img {
+    width: 50%;
+}
+
+.banner-img img {
+    width: 100%;
+    height: auto;
+}
+
+.banner-text h2 {
+    font-size: 48px;
+    margin: 0%;
+}
+
+.banner-text h1 {
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 95px;
+    margin: 0%;
+
+}
+
+.banner-btn1 {
+    background-color: palevioletred;
+    color: white;
+    border-radius: 8px;
+    width: 120px;
+    height: 40px;
+    margin-right: 20px;
+    border: none;
+}
+
+.banner-btn2 {
+    background-color: #4EC5F7;
+    color: white;
+    border-radius: 8px;
+    width: 120px;
+    height: 40px;
+    border: none;
+}
+
+/* banner design end here  */
+
+
+
+/* online games section start here */
+
+.grid-container {
+    display: flex;
+    max-width: 1400px;
+    margin: 50px auto 0;
+    min-height: 400px;
+    gap: 5px;
+    border-radius: 5px;
+}
+
+.games-text {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.funny,
+.games-text {
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 48px;
+    margin: 0%;
+}
+
+.games-text h1 {
+    font-size: 48px;
+}
+
+/* online games section end here */
+
+
+
+/* play instant section start here */
+.play-instant-container {
+    max-width: 1400px;
+    margin: 10px auto;
+    /* min-height: 200px; */
+    display: flex;
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.play-instant-text {
+    width: 50%;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.play-instant {
+    font-size: 30px;
+}
+
+.aniversery-img {
+
+    text-align: left;
+
+
+}
+
+.aniversery-img img {
+    width: 634px;
+    height: 620px;
+    margin-left: 70px;
+    position: relative;
+
+}
+
+.small-img img {
+    width: 300px;
+    height: 320px;
+    bottom: 220px;
+    right: 150px;
+    
+
+}
+
+/* online games section end here */
+
+
+/* icon section start here */
+.icon-img-container, .icon-img-container2 {
+    border: 1px solid red;
+    max-width: 1400px;
+    margin: 10px auto 0;
+    min-height: 250px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.icon-img-container img {
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+
+
+/* icon section end here */
